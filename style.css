@@ -1,10 +1,29 @@
+
+
+@import url(styles/header.css);
+
+
 :root{
     --cor-de-fundo: #EBECEE;
-}
-.body {
-    background-color: var(--cor-de-fundo);
-    }
-    .h1 {
-        background-color: white;
-        } 
+   --branco: #ffffff;
+   --amarelo: #fecd2f;
+   --roxo-degrade: linear-gradient(94.49deg,  #733887 35.48%,  #C75EEB 143.32%);
+   --fonte-principal: "Poppins";
 
+
+}
+
+
+
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size:16px;
+    font-weight: 400;
+}
+
+
+h1{
+    background-color: white;
+}
